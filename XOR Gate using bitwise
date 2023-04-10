@@ -1,0 +1,14 @@
+# experiment6
+#include <stdio.h>
+
+ int main() {
+     int num1 = 4;  
+     int num2 = 10;   
+     int result;     
+
+     result = num1 ^ num2;  
+
+     printf("The result of %d XOR %d is %d\n", num1, num2, result);
+
+     return 0;
+ }
